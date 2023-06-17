@@ -1,12 +1,10 @@
 #include<stdio.h>
 /**
-*This is a task for alx.
+* main -  This function is the entry point.
 *
-*Main: this function is the entry point.
+* Return: This should always be 0 (successs).
 *
-*Return: this should always be 0 (successs).
-*
-*Description: Hello c for printing.
+* Description: Hello c for printing.
 */
 int main(void)
 {
