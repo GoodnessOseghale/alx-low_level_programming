@@ -25,7 +25,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 		}
 		printf("0x%02x", buffer[i]);
 		i++;
-	}	
+	}
 	printf("\n");
 }
 
@@ -41,6 +41,6 @@ int main(void)
 	simple_print_buffer(buffer, 98);
 	_memset(buffer, 0x01, 95);
 	printf("-------------------------------------------------\n");
-	simple_print_buffer(buffer, 98);    
+	simple_print_buffer(buffer, 98);
 	return (0);
 }
